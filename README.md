@@ -1,6 +1,8 @@
 # Extracting Attractive App Aspects from Reviews
 
-This project utilizes Natural Language Processing (NLP) and Clustering Machine Learning techniques to extract and categorize attractive aspects of mobile applications from user reviews. The model is based on the Kano Model, which classifies features based on the impact of the presence or absence of a feature on users' satisfaction.
+This project utilizes Natural Language Processing (NLP) and Clustering Machine Learning techniques to extract and categorize attractive aspects of mobile applications from user reviews. The model is based on the Kano Model, which classifies features based on the impact of the presence or absence of a feature on users' satisfaction. 
+
+For more information, check out our [Project Wiki](https://github.com/JohnsL-U/App-Feature-Extraction/wiki).
 
 ## Table of Contents
 
