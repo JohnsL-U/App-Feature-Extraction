@@ -8,12 +8,9 @@ For more information, check out our [Project Wiki](https://github.com/JohnsL-U/A
 
 1. [Introduction](#introduction)
 2. [Acknowledgments](#acknowledgments)
-3. [Methodology](#methodology)
-4. [Results and Discussion](#results)
-5. [Improvements and Future Work](#improvements)
-6. [Usage](#usage)
-7. [Team](#team)
-8. [License](#license)
+3. [Usage](#usage)
+4. [Team](#team)
+5. [License](#license)
 
 ## <a name="introduction"></a>Introduction
 
@@ -23,26 +20,47 @@ The main goal of this project is to use the Kano model and machine learning clus
 
 This project is based on the research titled "Extracting Attractive App Aspects from App Reviews using Clustering Techniques based on Kano Model" by Nadeen AlAmoudi, Malak Baslyman, and Motaz Ahmed from the Department of Information & Computer Science, King Fahd University of Petroleum & Minerals, Dhahran, Saudi Arabia. Their original code and data served as the foundation for this project and can be found at this [GitHub repository](https://github.com/NadeenAmoudi/extracting-attractive-app-aspects). We express our deepest gratitude to the authors for making their valuable work available to the community.
 
-## <a name="methodology"></a>Methodology
-
-Our approach consists of four main phases:
-
-1. **Data preprocessing:** This involves cleaning and formatting the review data for further analysis.
-2. **App aspects extraction:** This process identifies and extracts the various aspects of the app mentioned in the reviews.
-3. **App aspects satisfaction evaluation:** Sentiment analysis is used to calculate the satisfaction and dissatisfaction scores for each aspect.
-4. **Extracting attractive app aspects:** The satisfaction and dissatisfaction values of each aspect are then used in clustering algorithms to categorize aspects based on their attractiveness to users.
-
-## <a name="results"></a>Results and Discussion
-
-After implementing our methodology, we compared the resulting categorizations with the ground truth from a user survey. The results were promising, with our system successfully identifying all the attractive aspects. However, certain aspects were missed or misplaced, indicating the need for further improvement.
-
-## <a name="improvements"></a>Improvements and Future Work
-
-Some of the improvements made to the original research methodology include refining the data preprocessing step, using alternative NLP tools, rewriting missing code sections, and generating synthetic survey data. However, future work will include conducting an actual user survey and integrating these responses for better accuracy.
-
 ## <a name="usage"></a>Usage
 
-This project was implemented in Python. Please ensure you have the required libraries installed. Instructions for running the various scripts are included in the individual script files.
+This project is written and should be run in a Jupyter Notebook environment through Visual Studio Code. Here are the step-by-step instructions to set up the environment and run the notebook:
+
+### 1. Prerequisites
+
+Before you start, you need to install some prerequisites:
+
+- Python (3.7 or higher is recommended)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- Jupyter extension for Visual Studio Code
+
+You can install Python and Visual Studio Code from their respective websites. After you have installed Visual Studio Code, you can install the Jupyter extension by opening Visual Studio Code and going to `Extensions (Ctrl+Shift+X)` and then searching for `Jupyter`.
+
+### 2. Clone the Repository
+
+You can clone the repository to your local machine by running:
+
+```bash
+git clone https://github.com/JohnsL-U/App-Feature-Extraction.git
+```
+
+### 3. Install Required Libraries
+
+Navigate to the project directory in your terminal and install the required libraries by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Open Visual Studio Code and Load the Jupyter Notebook
+
+Open Visual Studio Code. In the top left corner, click on `File -> Open Folder` and navigate to the cloned repository. From there, open the notebook files based on the order in project wiki's approach section.
+
+### 5. Run the Jupyter Notebook
+
+You can run the entire notebook by clicking on the `Run All Cells` button (double play button) at the top of the notebook interface. Alternatively, you can run the cells one by one using the `Run Cell` button (play button) at the top left of each cell.
+
+Please note that some cells may take a while to run, especially if they involve complex computations or data processing.
+
+Enjoy exploring the project!
 
 ## <a name="team"></a>Team
 
